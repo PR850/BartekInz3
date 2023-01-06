@@ -42,21 +42,20 @@
   <children>
     <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="300.0" VBox.vgrow="ALWAYS">
       <children>
-            <Button fx:id="GenerujBtn" layoutX="100.0" layoutY="337.0" mnemonicParsing="false" onAction="#onGenerujButtonClick" text="GENERUJ MAPE" />
-            <TextField alignment="CENTER" editable="false" layoutX="20.0" layoutY="40.0" prefHeight="25.0" prefWidth="98.0" text="Map size" />
-            <TextField alignment="CENTER" editable="false" layoutX="20.0" layoutY="120.0" prefHeight="25.0" prefWidth="98.0" text="Forrest" />
-            <TextField alignment="CENTER" editable="false" layoutX="20.0" layoutY="80.0" prefHeight="25.0" prefWidth="98.0" text="Mountain" />
-            <ComboBox fx:id="mapa" layoutX="136.0" layoutY="40.0" prefWidth="150.0" />
-            <ComboBox fx:id="gora" layoutX="136.0" layoutY="80.0" prefWidth="150.0" />
-            <ComboBox fx:id="las" layoutX="136.0" layoutY="120.0" prefWidth="150.0" />
-            <TextField alignment="CENTER" editable="false" layoutX="20.0" layoutY="160.0" prefHeight="25.0" prefWidth="98.0" text="Lake" />
-            <ComboBox fx:id="jezioro" layoutX="136.0" layoutY="160.0" prefWidth="150.0" />
-            <TextField alignment="CENTER" editable="false" layoutX="20.0" layoutY="200.0" prefHeight="25.0" prefWidth="98.0" text="River" />
-            <ComboBox fx:id="rzeka" layoutX="136.0" layoutY="200.0" prefWidth="150.0" />
-            <TextField alignment="CENTER" editable="false" layoutX="20.0" layoutY="240.0" prefHeight="25.0" prefWidth="98.0" text="Village" />
-            <ComboBox fx:id="wioska" layoutX="136.0" layoutY="240.0" prefWidth="150.0" />
-            <TextField alignment="CENTER" editable="false" layoutX="20.0" layoutY="280.0" prefHeight="25.0" prefWidth="98.0" text="Road" />
-            <ComboBox fx:id="droga" layoutX="136.0" layoutY="280.0" prefWidth="150.0" />
+            <Button fx:id="GenerujBtn" layoutX="100.0" layoutY="347.0" mnemonicParsing="false" onAction="#onGenerujButtonClick" text="GENERUJ MAPE" />
+            <TextField alignment="CENTER" editable="false" layoutX="16.0" layoutY="94.0" prefHeight="25.0" prefWidth="98.0" text="Map size" />
+            <TextField alignment="CENTER" editable="false" layoutX="16.0" layoutY="174.0" prefHeight="25.0" prefWidth="98.0" text="Forrest" />
+            <TextField alignment="CENTER" editable="false" layoutX="16.0" layoutY="134.0" prefHeight="25.0" prefWidth="98.0" text="Mountain" />
+            <ComboBox fx:id="mapa" layoutX="132.0" layoutY="94.0" prefWidth="150.0" />
+            <ComboBox fx:id="gora" layoutX="132.0" layoutY="134.0" prefWidth="150.0" />
+            <ComboBox fx:id="las" layoutX="135.0" layoutY="174.0" prefWidth="150.0" />
+            <TextField alignment="CENTER" editable="false" layoutX="19.0" layoutY="214.0" prefHeight="25.0" prefWidth="98.0" text="Lake" />
+            <ComboBox fx:id="jezioro" layoutX="135.0" layoutY="214.0" prefWidth="150.0" />
+            <TextField alignment="CENTER" editable="false" layoutX="19.0" layoutY="254.0" prefHeight="25.0" prefWidth="98.0" text="Village" />
+            <ComboBox fx:id="wioska" layoutX="135.0" layoutY="254.0" prefWidth="150.0" />
+            <TextField alignment="CENTER" editable="false" layoutX="19.0" layoutY="294.0" prefHeight="25.0" prefWidth="98.0" text="Road" />
+            <ComboBox fx:id="droga" layoutX="135.0" layoutY="294.0" prefWidth="150.0" />
+            <TextField alignment="CENTER" editable="false" layoutX="37.0" layoutY="22.0" prefHeight="42.0" prefWidth="227.0" text="CHOOSE GENERATION PROPERTIES" />
       </children>
     </AnchorPane>
   </children>
