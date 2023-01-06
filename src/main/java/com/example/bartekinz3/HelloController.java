@@ -168,7 +168,13 @@ public class HelloController {
         int aktualnaPozycjaGor_X = miejsceStartoweGor[0];
         int aktualnaPozycjaGor_Y = miejsceStartoweGor[1];
 
+        int maxLiczbaIteracji = 1000000;
+        int iteracjaGor = 0;
         while(pozostalePolaGor > 0){
+            iteracjaGor++;
+            if(maxLiczbaIteracji < iteracjaGor){
+                break;
+            }
             int czyMaSieWygenerowac = (int) (Math.random() * (100));
             if(czyMaSieWygenerowac > 10){
                 int wKtoraStroneIdzie = (int) (Math.random() * (4) + 1);
@@ -278,7 +284,12 @@ public class HelloController {
         int aktualnaPozycjaLasow_X = miejsceStartoweLas[0];
         int aktualnaPozycjaLasow_Y = miejsceStartoweLas[1];
 
+        int iteracjaLasow = 0;
         while(pozostalePolaLasow > 0){
+            iteracjaLasow++;
+            if(maxLiczbaIteracji < iteracjaLasow){
+                break;
+            }
             int czyMaSieWygenerowac = (int) (Math.random() * (100));
             if(czyMaSieWygenerowac > 10){
                 int wKtoraStroneIdzie = (int) (Math.random() * (4) + 1);
@@ -388,7 +399,12 @@ public class HelloController {
         int aktualnaPozycjaJezior_X = miejsceStartoweJezioro[0];
         int aktualnaPozycjaJezior_Y = miejsceStartoweJezioro[1];
 
+        int iteracjaJezior = 0;
         while(pozostalePolaJezior > 0){
+            iteracjaJezior++;
+            if(maxLiczbaIteracji < iteracjaJezior){
+                break;
+            }
             int czyMaSieWygenerowac = (int) (Math.random() * (100));
             if(czyMaSieWygenerowac > 10){
                 int wKtoraStroneIdzie = (int) (Math.random() * (4) + 1);
@@ -498,7 +514,12 @@ public class HelloController {
         int aktualnaPozycjaWiosek_X = miejsceStartoweWiosek[0];
         int aktualnaPozycjaWiosek_Y = miejsceStartoweWiosek[1];
 
+        int iteracjaWiosek = 0;
         while(pozostalePolaWiosek > 0){
+            iteracjaWiosek++;
+            if(maxLiczbaIteracji < iteracjaWiosek){
+                break;
+            }
             int czyMaSieWygenerowac = (int) (Math.random() * (100));
             if(czyMaSieWygenerowac > 10){
                 int wKtoraStroneIdzie = (int) (Math.random() * (4) + 1);
@@ -994,6 +1015,8 @@ public class HelloController {
         catch (Exception ex){
             ex.printStackTrace();
         }
+
+        System.exit(0);
     }
 
     @FXML
